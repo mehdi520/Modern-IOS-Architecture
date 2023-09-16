@@ -11,6 +11,7 @@
 		184F7E212AB601CF0054D8B1 /* RealmDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F7E202AB601CF0054D8B1 /* RealmDb.swift */; };
 		184F7E232AB6024F0054D8B1 /* MovieRO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F7E222AB6024F0054D8B1 /* MovieRO.swift */; };
 		184F7E252AB6025C0054D8B1 /* MovieDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F7E242AB6025C0054D8B1 /* MovieDAO.swift */; };
+		184F7E2C2AB626390054D8B1 /* MovieServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F7E2B2AB626390054D8B1 /* MovieServiceTest.swift */; };
 		187F69ED2AB59CC8005D0490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F69EC2AB59CC8005D0490 /* AppDelegate.swift */; };
 		187F69EF2AB59CC8005D0490 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F69EE2AB59CC8005D0490 /* SceneDelegate.swift */; };
 		187F69F42AB59CC8005D0490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187F69F22AB59CC8005D0490 /* Main.storyboard */; };
@@ -73,6 +74,7 @@
 		184F7E202AB601CF0054D8B1 /* RealmDb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDb.swift; sourceTree = "<group>"; };
 		184F7E222AB6024F0054D8B1 /* MovieRO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRO.swift; sourceTree = "<group>"; };
 		184F7E242AB6025C0054D8B1 /* MovieDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDAO.swift; sourceTree = "<group>"; };
+		184F7E2B2AB626390054D8B1 /* MovieServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceTest.swift; sourceTree = "<group>"; };
 		187F69E92AB59CC8005D0490 /* Modern-IOS-Arhitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modern-IOS-Arhitecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		187F69EC2AB59CC8005D0490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		187F69EE2AB59CC8005D0490 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -189,6 +191,31 @@
 			path = Extentions;
 			sourceTree = "<group>";
 		};
+		184F7E282AB625D70054D8B1 /* NetworkingTest */ = {
+			isa = PBXGroup;
+			children = (
+				184F7E2A2AB6260C0054D8B1 /* ServicesTest */,
+				184F7E292AB625E50054D8B1 /* EndPointTestCases */,
+			);
+			path = NetworkingTest;
+			sourceTree = "<group>";
+		};
+		184F7E292AB625E50054D8B1 /* EndPointTestCases */ = {
+			isa = PBXGroup;
+			children = (
+				187F6A032AB59CCB005D0490 /* Modern_IOS_ArhitectureTests.swift */,
+			);
+			path = EndPointTestCases;
+			sourceTree = "<group>";
+		};
+		184F7E2A2AB6260C0054D8B1 /* ServicesTest */ = {
+			isa = PBXGroup;
+			children = (
+				184F7E2B2AB626390054D8B1 /* MovieServiceTest.swift */,
+			);
+			path = ServicesTest;
+			sourceTree = "<group>";
+		};
 		187F69E02AB59CC8005D0490 = {
 			isa = PBXGroup;
 			children = (
@@ -231,7 +258,7 @@
 		187F6A022AB59CCB005D0490 /* Modern-IOS-ArhitectureTests */ = {
 			isa = PBXGroup;
 			children = (
-				187F6A032AB59CCB005D0490 /* Modern_IOS_ArhitectureTests.swift */,
+				184F7E282AB625D70054D8B1 /* NetworkingTest */,
 			);
 			path = "Modern-IOS-ArhitectureTests";
 			sourceTree = "<group>";
@@ -713,6 +740,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187F6A042AB59CCB005D0490 /* Modern_IOS_ArhitectureTests.swift in Sources */,
+				184F7E2C2AB626390054D8B1 /* MovieServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
